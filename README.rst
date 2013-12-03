@@ -7,6 +7,8 @@ Requests: HTTP for Humans
 .. image:: https://pypip.in/d/requests/badge.png
         :target: https://crate.io/packages/requests/
 
+.. image:: https://secure.travis-ci.org/kennethreitz/requests.png
+        :target: https://travis-ci.org/kennethreitz/requests/
 
 Requests is an Apache2 Licensed HTTP library, written in Python, for human
 beings.
@@ -91,7 +93,3 @@ Contribute
 .. _`the repository`: http://github.com/kennethreitz/requests
 .. _AUTHORS: https://github.com/kennethreitz/requests/blob/master/AUTHORS.rst
 .. _Contributor Friendly: https://github.com/kennethreitz/requests/issues?direction=desc&labels=Contributor+Friendly&page=1&sort=updated&state=open
-
-Build Status
-------------
-.. image:: https://secure.travis-ci.org/kennethreitz/requests.png
