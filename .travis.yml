@@ -1,11 +1,17 @@
 language: python
 
+env:
+  - BUILD=tests
+  - BUILD=docs
+
 python:
   - "2.6"
   - "2.7"
 
 install:
-  - make init
+  - if [[ $BUILD == 'tests' ]]; then make init;  fi
+  - if [[ $BUILD == 'docs' ]]; then make docs-init;  fi
 
 script:
-  - make test
+  - if [[ $BUILD == 'tests' ]]; then make test;  fi
+  - if [[ $BUILD == 'docs' ]]; then make docs;  fi
